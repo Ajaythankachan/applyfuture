@@ -856,7 +856,11 @@ footer {
     text-decoration: none;
 }
 
-
+   html,
+   body {
+       overflow-x: hidden;
+       width: 100%
+   }
 /* Responsive style starts here  */
 
 
