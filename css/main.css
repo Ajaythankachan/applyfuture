@@ -1,0 +1,1530 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Satoshi";
+}
+
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../font/Satoshi_Complete/Satoshi-Light.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../font/Satoshi_Complete/Satoshi-Regular.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../font/Satoshi_Complete/Satoshi-Medium.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../font/Satoshi_Complete/Satoshi-Bold.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../font/Satoshi_Complete/Satoshi-Black.otf");
+    font-weight: 600;
+}
+
+/* --------------------------------------------------------- common styles style starts here  */
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 160px;
+
+}
+
+.main {
+    margin-top: 130px;
+}
+
+/* --------------------------------------------------------- nav style starts here  */
+.nav-link {
+    color: #0F1F2D;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.absolute-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: padding 0.3s, width 0.3s;
+
+}
+
+.absolute-nav.scroll {
+    background-color: #fff;
+    color: #eef;
+    transition: background-color 0.4s ease-out;
+    box-shadow: 3px 5px 12px #ddd;
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+.nav-link.nav-btn {
+    border-radius: 12px;
+    background: #0F1F2D;
+    color: #fff;
+    width: 125px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------- banner style starts here  */
+
+
+
+.banner .banner-left h1 {
+    color: #0F1F2D;
+    font-family: Plus Jakarta Sans;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 92px;
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner .banner-left p {
+    color: #0F1F2D;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 36px;
+}
+
+.secondary-btn {
+    border-radius: 12px;
+    background: #248BE0;
+    display: flex;
+    width: 140px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 18px;
+}
+
+.banner-btn-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cmn-btn {
+    border-radius: 12px;
+    background: #0F1F2D;
+    display: flex;
+    width: 140px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 18px;
+}
+
+/* ----------------------------------------------------------- service style starts here  */
+.service {
+    padding: 120px 0;
+    background: #0F1F2D;
+    color: #fff;
+}
+
+.comn-hd {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.service-card {
+    border-radius: 56px;
+    background: #001222;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    position: relative;
+}
+
+.service-card img {
+    margin-bottom: 25px;
+}
+
+.service-card h3 {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 59px;
+}
+
+.service-card p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+/* ----------------------------------------------------------- about style starts here  */
+.about-left {}
+
+.about-left img {
+    width: 100%;
+}
+
+.about-right {
+    padding: 0 60px;
+}
+
+.about-right h2 {
+    color: #0F1F2D;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.about-right p {
+    color: #0F1F2D;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------------------------- achievement style starts here  */
+.achievement {
+    padding: 120px 0;
+    background: #0F1F2D;
+    color: #fff;
+
+}
+
+.comn-hd {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.achievement-left {
+    background: url('../img/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+    border-radius: 55px;
+    position: relative;
+    background-size: cover;
+}
+
+.achievement-left h1 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94px;
+    margin-bottom: 45px;
+}
+
+.abs {
+    position: absolute;
+    top: 38%;
+    left: 55%;
+}
+
+.achievement-left p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.achievement-right {
+    background: url('../img/Group\ 15.png');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+    border-radius: 55px;
+    position: relative;
+    background-size: cover;
+}
+
+.achievement-right h1 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94px;
+    margin-bottom: 45px;
+}
+
+.abs {
+    position: absolute;
+    top: 39%;
+    left: 52%;
+}
+
+.achievement-right p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 25px;
+    max-width: 550px;
+}
+
+/* ----------------------------------------------------------- ourservice style starts here  */
+
+h2.comn-blk-hd {
+    color: #0F1F2D;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.our-service-card {
+    border-radius: 56px;
+    background: #0F1F2D;
+    padding: 40px;
+    min-height: 350px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.our-service-card img {
+    margin-bottom: 25px;
+}
+
+.our-service-card h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.our-service-card p {
+    color: #cdcdcd;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+/* ----------------------------------------------------------- job or achivement style starts here  */
+
+
+.job-achv {
+    padding: 120px 0;
+    background: #0F1F2D;
+    color: #fff;
+
+}
+
+.comn-hd {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.job-achv-left {
+    background: url('../img/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 540px;
+    border-radius: 55px;
+    padding: 60px;
+    background-size: cover;
+}
+
+.job-achv-left h1 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94px;
+    margin-bottom: 45px;
+}
+
+.abs {
+    position: absolute;
+    top: 38%;
+    left: 55%;
+}
+
+.job-achv-left p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.job-achv-right {
+    background: url('../img/Group\ 15.png');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 540px;
+    border-radius: 55px;
+    position: relative;
+    background-size: cover;
+    padding: 60px;
+    margin-bottom: 20px;
+}
+
+.job-achv-right h1 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94px;
+    margin-bottom: 45px;
+}
+
+.abs {
+    position: absolute;
+    top: 41%;
+    left: 52%;
+}
+
+.job-achv-right p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 25px;
+    max-width: 550px;
+}
+
+.job-achv h3 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94px;
+}
+
+.job-achv li {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.job-achv ul {
+    padding-left: 15px;
+    padding-bottom: 24px;
+}
+
+.test-item {
+    display: flex;
+}
+
+
+.test-right {
+    background: #0F1F2D;
+    color: #fff;
+    position: relative;
+    margin-left: -50px;
+    z-index: -1;
+    padding: 40px;
+    padding-left: 83px;
+    border-radius: 0 55px 55px 0;
+    width: 70%;
+}
+
+.testimonial-content.owl-carousel .owl-item .test-right img {
+    display: block;
+    width: 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.testimonial-content.owl-carousel .owl-item img.test-img {
+    display: block;
+    width: 90%;
+    border-radius: 55px 0 0 55px;
+}
+
+.text-content {
+    width: 65%;
+    margin-left: 90px;
+}
+
+.test-right h4 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.test-item {}
+
+.test-right p {
+    color: #FAF9F9;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.test-designation {}
+
+.test-right .name {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: -1px;
+}
+
+.test-right .desig {
+    color: #FAF9F9;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+    margin: 0;
+}
+
+.test-left {
+    width: 30%;
+}
+
+.owl-nav {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.testimonial-content {
+    position: relative;
+}
+
+/* conact section style starts here  */
+.contact {
+    margin-bottom: 160px;
+    position: relative;
+    min-height: 310px;
+}
+
+.custom-container {
+    margin: 0 50px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.contact-inner {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: absolute;
+    background: #fff;
+    padding: 60px;
+    bottom: -364px;
+    left: 0;
+    border-radius: 10px;
+    right: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px -3px 24px;
+}
+
+.contact-left {
+    width: 60%;
+}
+
+.contact-right {
+    width: 38%;
+    background: #0f1f2d;
+    border-radius: 10px;
+    padding: 34px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-inner {
+    display: flex;
+}
+
+.form-inner input {
+    height: 55px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 95%;
+}
+
+.txt-area {
+    height: 145px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 97%;
+}
+
+.contact-right h5 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.contact-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-right img {
+    width: 23px;
+    margin-right: 15px;
+}
+
+.contact-right li {
+    margin-bottom: 27px;
+    color: #fff;
+    font-size: 18px;
+    display: inline-flex;
+}
+
+.send-msg {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* --------------------------------------------------- footer style starts here  */
+footer {
+    background: #0f1f2d;
+    min-height: 500px;
+}
+
+.footer-inner {
+    padding-top: 262px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-sec {
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+}
+
+.logo-sec h2 {
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 7px;
+    margin-top: 8px;
+}
+
+.company {
+    text-align: center;
+}
+
+.company h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.company ul {
+    padding: 0;
+}
+
+
+.company li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.company li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+
+.address h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.address {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.address address {
+    line-height: 2.3;
+}
+
+.social {
+    text-align: center;
+}
+
+.social h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.social ul {
+    padding: 0;
+}
+
+
+.social li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.social li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+
+.social img {
+    width: 25px;
+}
+
+.aboutservice-p {
+    overflow: hidden;
+}
+
+.aboutservice-p .truncated {
+    white-space: initial;
+    width: 100%;
+    overflow: auto;
+    transition: all 0.23s, opacity 0s;
+}
+
+.aboutservice-p-n {
+    overflow: hidden;
+}
+
+.aboutservice-p-n .truncated {
+    white-space: initial;
+    width: 100%;
+    overflow: auto;
+    transition: all 0.23s, opacity 0s;
+}
+
+.more-icon-n {
+    position: absolute;
+    right: 40px;
+    bottom: 25px;
+    color: #0961bf;
+    font-size: 13px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.more-icon {
+    position: absolute;
+    right: 40px;
+    bottom: 25px;
+    color: #0961bf;
+    font-size: 13px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+
+/* Responsive style starts here  */
+
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%
+    }
+
+    .banner .banner-left h1 {
+        color: #0F1F2D;
+        font-family: Plus Jakarta Sans;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .banner .banner-left p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .cmn-btn {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .secondary-btn {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    section {
+        margin-bottom: 80px;
+    }
+
+    .comn-hd {
+        color: #FFF;
+        font-family: Plus Jakarta Sans;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .service-card p {
+        color: #FFF;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 26px;
+    }
+
+    .about-right p {
+        color: #0F1F2D;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+
+    .about-right h2 {
+        color: #0F1F2D;
+        font-family: Plus Jakarta Sans;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .achievement-left h1 {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 94px;
+        margin-bottom: 45px;
+    }
+
+    .achievement-left p {
+        color: #FFF;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .abs {
+        position: absolute;
+        top: 37%;
+        left: 0;
+        right: 0;
+        transform: translateX(20%);
+    }
+
+    .achievement-right p {
+        color: #FFF;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 25px;
+        max-width: 550px;
+    }
+
+    .achievement-right h1 {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 94px;
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .mob-flex-direction {
+        flex-direction: column-reverse;
+    }
+
+    .banner-img {
+        width: 70%;
+        margin: 0 auto;
+        display: inherit;
+        margin-bottom: 30px;
+    }
+
+    .banner .banner-left h1 {
+        color: #0F1F2D;
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 44px;
+        margin-bottom: 8px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .banner .banner-left p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cmn-btn {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .banner-btn-wrap {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .secondary-btn {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .service-card {
+        margin-bottom: 30px;
+    }
+
+    .comn-hd {
+        color: #FFF;
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .service {
+        padding: 50px 0;
+    }
+
+    .service-card img {
+        margin-bottom: 15px;
+        width: 16%;
+    }
+
+    .service-card p {
+        color: #FFF;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 1.6;
+    }
+
+    .service-card h3 {
+        color: rgba(255, 255, 255, 0.80);
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.6;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    .about-right {
+        padding: 0px;
+    }
+
+    .about-right h2 {
+        color: #0F1F2D;
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+
+    .about-right p {
+        color: #0F1F2D;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .abs {
+        position: absolute;
+        right: 25%;
+        left: 25%;
+        transform: translate(12%, -25%);
+    }
+
+    .achievement {
+        padding: 40px;
+        background: #0F1F2D;
+        color: #fff;
+    }
+
+    .achievement-left {
+        background: url(../img/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        border-radius: 55px;
+        position: relative;
+        background-size: cover;
+        padding: 50px 100px;
+        margin-bottom: 30px;
+    }
+
+    .achievement-left h1 {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.4;
+        margin-bottom: 19px;
+    }
+
+   .abs {
+       position: absolute;
+       right: 25%;
+       left: 25%;
+       top: 29%;
+       transform: translate(21%, 50%);
+       font-size: 12px;
+   }
+
+    .achievement-left p {
+        color: #FFF;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+.achievement-right {
+    background: url(../img/Group\ 15.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-radius: 55px;
+    position: relative;
+    background-size: cover;
+    padding: 50px 100px;
+}
+.achievement-right h1 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.6;
+    margin-bottom: 19px;
+}
+.achievement-right p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 550px;
+}
+h2.comn-blk-hd {
+    color: #0F1F2D;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}   
+.service-card {
+    border-radius: 56px;
+    background: #001222;
+    min-height: 261px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px 65px;
+    position: relative;
+}
+.about-left img {
+    width: 70%;
+    display:inherit
+}
+
+.our-service-card {
+    border-radius: 56px;
+    background: #0F1F2D;
+    padding: 40px 80px;
+    min-height: 260px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.our-service-card img {
+    margin-bottom: 20px;
+    width: 50px;
+}
+.our-service-card h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.our-service-card p {
+    color: #cdcdcd;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.our-service-card p {
+    color: #cdcdcd;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6;
+}
+/* .our-service-card:last-child{
+    margin: 0;
+} */
+.job-achv {
+    padding: 40px 0;
+    background: #0F1F2D;
+    color: #fff;
+}
+.job-achv-right {
+    background: url(../img/Group\ 15.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    border-radius: 55px;
+    position: relative;
+    background-size: cover;
+    padding: 50px;
+}
+.job-achv h3 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.job-achv ul {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.job-achv li {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.job-achv-left {
+    background: url(../img/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 55px;
+    padding: 51px;
+    background-size: cover;
+    min-height: auto;
+}
+.test-item {
+    display: flex;
+    flex-direction: column;
+}
+.test-left {
+    width: 100%;
+}
+.testimonial-content.owl-carousel .owl-item img.test-img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 240px;
+    border-radius: 55px 55px 0 0;
+}
+.test-right {
+    background: #0F1F2D;
+    color: #fff;
+    position: relative;
+    margin-left: 0;
+    z-index: -1;
+    padding: 40px;
+    padding-left: 40px;
+    border-radius: 0 0 55px 55px;
+    width: 100%;
+}
+}
+.testimonial-content.owl-carousel .owl-item .test-right img {
+    display: block;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    object-fit: cover;
+}
+.text-content {
+    width: 100%;
+    margin-left: 0;
+}
+.test-right h4 {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 1.4;
+}
+.test-right p {
+    color: #FAF9F9;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.test-right .name {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: -1px;
+}
+.test-right .desig {
+    color: #FAF9F9;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* contact sec  */
+
+.contact {
+    margin-bottom: 160px;
+    position: relative;
+    min-height: 660px;
+}
+.custom-container {
+    margin: 0 50px;
+}
+.contact-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: absolute;
+    background: #fff;
+    padding: 40px;
+    bottom: -244px;
+    left: 0;
+    border-radius: 10px;
+    right: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px -3px 24px;
+}
+.contact-left {
+    width: 100%;
+}
+
+.form-inner input {
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 95%;
+}
+.contact-right {
+    width: 100%;
+    background: #0f1f2d;
+    border-radius: 10px;
+    padding: 34px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+.send-msg {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.contact-right h5 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-right li {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 14px;
+    display: inline-flex;
+    line-height: 1.8;
+    width: 100%;
+}
+.contact-right img {
+    width: 20px;
+    margin-right: 15px;
+}
+section:last-of-type {
+    margin-bottom: 0;
+    /* Remove margin for the last section */
+}
+.logo-sec h2 {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 7px;
+}
+.company h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    color: #fff;
+}
+.company li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.social img {
+    width: 20px;
+}
+.social h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.address h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.address address {
+    line-height: 2.3;
+    font-size: 14px;
+    line-height: 2;
+}
+}

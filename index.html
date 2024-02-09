@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav  id="navbar" class="navbar-expand-lg navbar absolute-nav">
+    <div class="container custom-navbar">
+      <a class="navbar-brand" href="#">
+        <img class="logo" id="logo" src="img/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <a class="menu-links hideme" data-menuanchor="firstPage" href="#firstPage">section 1</a>
+                              <a class="menu-links" data-menuanchor="secondPage" href="#secondPage">section 2</a>
+                              <a class="menu-links" data-menuanchor="3rdPage" href="#3rdPage">section 3</a>
+                              <a class="menu-links" data-menuanchor="4thpage" href="#4thpage">section 4</a>
+                           -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-menuanchor="firstPage" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-menuanchor="secondPage" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-menuanchor="secondPage" href="#product">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-menuanchor="secondPage" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-btn" data-menuanchor="secondPage" href="#contact">Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <section class="main">
+  <section class="banner">
+    <div class="container">
+      <div class="row mob-flex-direction">
+        <div class="col-lg-6 align-center">
+          <div class="banner-left" data-aos="fade-right" data-aos-duration="1500">
+            <h1>The Trusted Way to Move Abroad</h1>
+            <p>Apply for Future is the leading overseas education and job consultancy helping you to a
+              secured future abroad. </p>
+            <!-- With more than 10 years of experience in guiding and helping
+                people move abroad, Apply Future has established itself as the most trusted and safest
+                way to migrate abroad. -->
+            <div class="banner-btn-wrap">
+              <a class="cmn-btn" href="#">Contact us</a>
+              <a class="secondary-btn" href="#">About us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="banner-right" data-aos="fade-left" data-aos-duration="1500">
+            <img class="banner-img" src="img/banner.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="service">
+    <h2 class="comn-hd" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in-quad">Our Services</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service-card" data-aos="fade-up" data-aos-duration="500">
+            <img src="img/writing.png" alt="">
+            <h3>Study Abroad</h3>
+            <div class="aboutservice-p">
+              <p>Want to study abroad in the best universities across the world? Our study abroad
+                services include understanding your unique requirements,budget and matching them
+                with the right courses and universities.</p>
+            </div>
+            <a class="more-icon" id="more">See More +</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service-card" data-aos="fade-up" data-aos-duration="1000">
+            <img src="img/abilities.png" alt="">
+            <h3>Work Abroad</h3>
+            <div class="aboutservice-p">
+              <p>We have a team of dedicated experts who strive to understand your requirements
+                and help you apply to the dream job of your choice overseas. From healthcare to
+                various other industries, our extensive reach helps you achieve your dream job
+                abroad</p>
+            </div>
+            <a class="more-icon" id="more">See More +</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service-card" data-aos="fade-up" data-aos-duration="1500">
+            <img src="img/elearning.png" alt="">
+            <h3>Training programs</h3>
+            <div class="aboutservice-p">
+              <p>We have a team of dedicated expert trainers who will enable you to unlock your full
+                potential. Our training programs include language training, personality development,
+                Content for Website 2
+                interview training and much more.
+              </p>
+            </div>
+            <a class="more-icon" id="more">See More +</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-left" data-aos="fade-right" data-aos-duration="1500">
+            <img src="img/about.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-center">
+          <div class="about-right" data-aos="fade-left" data-aos-duration="1500">
+            <h2>About us</h2>
+            <p>Apply for Future is Kerala’s leading overseas education and job consultancy. We have
+              helped over 10000+ candidates migrate abroad for education and work purposes. We
+              have served the people of Kerala for over 10 years and we are proud of the fact that we
+              have always remained 100 percent transparent in our services and that customer
+              satisfaction has always been at the center of whatever we do. If you want to know more
+              about us or some of our success stories kindly reach out to us.</p>
+            <a class="cmn-btn" href="#">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="achievement">
+    <h2 class="comn-hd" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in-quad">Success Counter</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="achievement-left" data-aos="fade-right" data-aos-duration="1500">
+            <h1>6000+</h1>
+            <span class="abs">patrons studying abroad
+            </span>
+            <p>t is a long established fact that a reader will be distracted by the readable content of a p</p>
+            <a class="secondary-btn" href="#">About us</a>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="achievement-right" data-aos="fade-left" data-aos-duration="1500">
+            <h1>4000+</h1>
+            <span class="abs">patrons working abroad</span>
+            <p>t is a long established fact that a reader will be distracted by the readable content of a p</p>
+            <a class="secondary-btn" href="#">About us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-service" id="product">
+    <h2 class="comn-blk-hd" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in-quad">Our Services</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="our-service-card" data-aos="fade-up" data-aos-duration="500">
+            <img src="img/credit-card-visa.png" alt="">
+            <h4>Student visa processing</h4>
+            <div class="aboutservice-p-n">
+              <p>Embark on your global journey with ease through our expert guidance in student
+                visa processing. From application to approval, our consultancy streamlines the
+                intricate process, ensuring your pathway to overseas education and career
+                opportunities is smooth and successful. Trust our experienced team to navigate the
+                complexities, providing personalized support tailored to your aspirations.
+              </p>
+            </div>
+            <a class="more-icon-n" id="more-n">See More +</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="our-service-card" data-aos="fade-up" data-aos-duration="1000">
+            <img src="img/visa.png" alt="">
+            <h4>Work Visa processing</h4>
+            <div class="aboutservice-p-n">
+              <p>Unlock boundless career prospects abroad with our comprehensive support in work
+                visa processing. Our seasoned consultants are dedicated to facilitating every step of
+                the journey, from documentation to final approval, ensuring a seamless transition to
+                your dream job destination. Let us navigate the intricacies of work visa applications,
+                empowering you to embark on a fulfilling professional endeavor in a global arena</p>
+            </div>
+            <a class="more-icon-n" id="more-n">See More +</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="our-service-card" data-aos="fade-up" data-aos-duration="1500">
+            <img src="img/save-time.png" alt="">
+            <h4>Show money assistance</h4>
+            <div class="aboutservice-p-n">
+              <p>Empowering your aspirations for international education and career advancement,
+                our consultancy offers dedicated assistance with show money requirements. Count
+                on our expertise to navigate financial documentation, providing guidance and
+                solutions to meet the necessary criteria. With our support, you can confidently
+                demonstrate your financial capacity, paving the way for a successful transition to
+                your desired academic or professional pursuit abroad.</p>
+            </div>
+            <a class="more-icon-n" id="more-n">See More +</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="our-service-card" data-aos="fade-up" data-aos-duration="2000">
+            <img src="img/language.png" alt="">
+            <h4>English language training
+            </h4>
+            <div class="aboutservice-p-n">
+              <p>Elevate your language proficiency and enhance your global opportunities with our
+                tailored English language training programs. Our experienced instructors offer
+                comprehensive courses designed to sharpen your communication skills, boost
+                confidence, and prepare you for success in academic and professional settings
+                abroad. From beginner to advanced levels, trust our proven methods to guide you
+                towards fluency and proficiency in English, unlocking doors to a world of
+                possibilities.</p>
+            </div>
+            <a class="more-icon-n" id="more-n">See More +</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="our-service-card" data-aos="fade-up" data-aos-duration="2500">
+            <img src="img/online-learning.png" alt="">
+            <h4>German Language training</h4>
+            <div class="aboutservice-p-n">
+              <p>Whether you're aiming for academic pursuits, career advancement, or cultural
+                immersion in German-speaking regions, our expert instructors provide customized
+                courses to suit your learning goals. From foundational grammar to advanced
+                conversation skills, immerse yourself in the richness of the German language with
+                our comprehensive and engaging curriculum. Let us empower you to confidently
+                navigate a world of opportunities in German-speaking countries.</p>
+            </div>
+            <a class="more-icon-n" id="more-n">See More +</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="our-service-card" data-aos="fade-up" data-aos-duration="3000">
+            <img src="img/job-interview.png" alt="">
+            <h4>Interview training</h4>
+            <div class="aboutservice-p-n">
+              <p>Unlock the keys to successful interviews with our comprehensive interview training
+                services. Our skilled coaches offer personalized guidance and practical insights to
+                help you showcase your strengths, articulate your achievements, and confidently
+                navigate any interview scenario. From mock interviews to tailored feedback, we
+                equip you with the skills and strategies needed to make a lasting impression on
+                potential employers or academic institutions.
+              </p>
+            </div>
+            <a class="more-icon-n" id="more-n">See More +</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="job-achv">
+    <h2 class="comn-hd" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in-quad">Ready to take the next
+      step?</h2>
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-lg-6">
+          <div class="job-achv-right" data-aos="fade-right" data-aos-duration="1500">
+            <h3>I want to Study abroad</h3>
+            <ul>
+              <li><span>Global Academic Excellence:</span> World-class education at renowned institutions.</li>
+              <li>Wide range of universities: Choose from the best universities of the world</li>
+              <li>Career Advancement: Propel your career globally.</li>
+              <li>Personal Growth: Transformative journey abroad.</li>
+            </ul>
+            <a class="secondary-btn" href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="job-achv-left" data-aos="fade-left" data-aos-duration="1500">
+            <h3>I want to work abroad
+            </h3>
+            <ul>
+              <li>International Career Opportunities: Explore global job markets.</li>
+              <li>Cultural Exchange: Engage in diverse work environments.</li>
+              <li>Professional Growth: Expand skills on a global scale.</li>
+              <li>Life-Changing Experience: Transform your career path.</li>
+            </ul>
+            <a class="secondary-btn" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials" id="testimonials">
+    <h2 class="comn-blk-hd" data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in-quad">Testimonials</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="testimonial-content owl-carousel owl-theme" data-aos="fade" data-aos-duration="500"
+            data-aos-easing="ease-in-quad">
+            <div class="test-item">
+              <div class="test-left">
+                <img class="test-img" src="img/1.jpeg" alt="">
+              </div>
+              <div class="test-right">
+                <img src="img/quotes.png" data-aos="fade-up" data-aos-duration="500" alt="">
+                <div class="text-content">
+                  <h4>It is a long established fact</h4>
+                  <p data-aos="fade-up" data-aos-duration="1000">Enrolling with this consultancy was the best decision I
+                    made for my overseas education
+                    journey. Their team provided exceptional support throughout the visa processing,
+                    ensuring a smooth transition to my dream university. I am now thriving in a new
+                    academic environment, thanks to their expert guidance.</p>
+                  <div class="test-designation">
+                    <p class="name">Kevin Powewell</p>
+                    <p class="desig">Assistant Manager</p>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+            <div class="test-item">
+              <div class="test-left">
+                <img class="test-img" src="img/2.png" alt="">
+              </div>
+              <div class="test-right">
+                <img src="img/quotes.png" data-aos="fade-up" data-aos-duration="500" alt="">
+                <div class="text-content">
+                  <h4>It is a long established fact</h4>
+                  <p data-aos="fade-up" data-aos-duration="1000">Choosing this consultancy for my student visa processing
+                    was a game-changer. Their
+                    personalized approach and attention to detail gave me the confidence to pursue my
+                    education overseas. Thanks to their expertise, I am now living my dream of studying
+                    abroad and building a brighter future for myself. Highly recommended!</p>
+                  <div class="test-designation">
+                    <p class="name">Kevin Powewell</p>
+                    <p class="desig">Assistant Manager</p>
+                  </div>
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="test-item">
+              <div class="test-left">
+                <img src="img/Algo/testimonials.png" alt="">
+              </div>
+              <div class="test-right">
+                <img src="img/Algo/quotes.png" data-aos="fade-up" data-aos-duration="500" alt="" alt="">
+                <p data-aos="fade-up" data-aos-duration="1000">CK Creatives transformed our brand's story into a
+                  captivating video
+                  that truly captured our essence. Their
+                  creativity
+                  and attention to detail are unmatched</p>
+  
+              </div>
+            </div>
+            <div class="test-item">
+              <div class="test-left">
+                <img src="img/Algo/testimonials.png" alt="">
+              </div>
+              <div class="test-right">
+                <img src="img/Algo/quotes.png" alt="">
+                <p>CK Creatives transformed our brand's story into a captivating video that truly captured our essence.
+                  Their
+                  creativity
+                  and attention to detail are unmatched</p>
+  
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="custom-container">
+      <h2 class="comn-blk-hd aos-init aos-animate" data-aos="zoom-in">Contact Us </h2>
+      <div class="contact-inner">
+        <div class="contact-left" data-aos="fade-right" data-aos-duration="1500">
+          <h4 class="send-msg">Send us a Message</h4>
+          <form id="myForm">
+            <div class="form-inner">
+              <div class="left">
+  
+                <input type="text" name="first_name" class="form-control" placeholder="First name">
+                <input type="email" name="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="right">
+                <input type="text" class="form-control" name="last_name" placeholder="Last name">
+                <input type="text" class="form-control" name="phone_number" placeholder="Phone number">
+              </div>
+            </div>
+  
+  
+  
+            <textarea name="message" class="form-control txt-area" placeholder="Message"></textarea>
+            <button class="cmn-btn">Send</button>
+            <!-- onclick="SubForm()" -->
+          </form>
+        </div>
+        <div class="contact-right" data-aos="fade-left" data-aos-duration="1500">
+          <h5>Lets connect with us !</h5>
+  
+          <ul>
+            <li class="phone-li">
+              <spna><img src="img/telephone (1).png" alt=""></spna>+91 79-94206587
+            </li>
+            <li>
+              <spna><img src="img/email.png" alt=""></spna>Info@applyforfuture.com
+  
+            </li>
+            <li>
+              <spna><img src="img/world-wide-web.png" alt=""></spna>www.applyfuture.com
+            </li>
+            <li>
+              <spna><img src="img/location (1).png" alt=""></spna>2nd Floor, Ambakkadan Junction,<br> Fort Bell Building,
+              East Fort, Keerankulangara, <br> Thrissur, Kerala 680001
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+  <footer>
+    <div class="custom-container">
+      <div class="footer-inner">
+        <div class="logo-sec">
+          <!-- <img src="" alt=""> -->
+          <h2>APPLY FUTURE</h2>
+        </div>
+        <div class="right-sec">
+          <div class="company">
+            <h3>Company</h3>
+            <ul>
+              <li>
+                <a href="#about">About</a>
+  
+              </li>
+  
+              <li>
+                <a href="#product">Services</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a href="#contcat">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="address">
+            <h3>Address</h3>
+            <address>
+              Apply Future <br>
+              2nd Floor, Ambakkadan Junction,
+              Fort Bell Building, East Fort<br>
+              ​Tel: +91 79-94206587<br>
+              Email: Info@applyforfuture.com
+            </address>
+          </div>
+          <div class="social">
+            <h3>Social Media</h3>
+            <ul>
+              <li>
+                <a href="#"><img src="img/whatsapp (1).png" alt=""></a>
+  
+              </li>
+              <li>
+                <a href="#"><img src="img/instagram (1).png" alt=""></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/youtube (1).png" alt=""></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/instagram (1).png" alt=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+ </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="
+      https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js
+      "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+    integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/CSSRulePlugin.min.js"
+    integrity="sha512-aUM9IHJr7TYwzhhbK0G9UQX6WNq6/1HC+lsh+EuqJyaOB44csmHMRVHcIVMWfrruvpVTtEqshD28L+0XxMH//g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
