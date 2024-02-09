@@ -5,6 +5,12 @@
     font-family: "Satoshi";
 }
 
+html,
+body {
+    overflow-x: hidden;
+    width: 100%
+}
+
 
 @font-face {
     font-family: "Satoshi";
@@ -618,7 +624,7 @@ h2.comn-blk-hd {
 .contact {
     margin-bottom: 160px;
     position: relative;
-    min-height: 310px;
+    min-height: 428px;
 }
 
 .custom-container {
@@ -642,7 +648,7 @@ h2.comn-blk-hd {
     position: absolute;
     background: #fff;
     padding: 60px;
-    bottom: -364px;
+    bottom: -227px;
     left: 0;
     border-radius: 10px;
     right: 0;
@@ -856,11 +862,11 @@ footer {
     text-decoration: none;
 }
 
-   html,
-   body {
-       overflow-x: hidden;
-       width: 100%
-   }
+section:last-of-type {
+    margin-bottom: 0;
+    /* Remove margin for the last section */
+}
+
 /* Responsive style starts here  */
 
 
@@ -1164,14 +1170,14 @@ footer {
         margin-bottom: 19px;
     }
 
-   .abs {
-       position: absolute;
-       right: 25%;
-       left: 25%;
-       top: 29%;
-       transform: translate(21%, 50%);
-       font-size: 12px;
-   }
+    .abs {
+        position: absolute;
+        right: 25%;
+        left: 25%;
+        top: 29%;
+        transform: translate(21%, 50%);
+        font-size: 12px;
+    }
 
     .achievement-left p {
         color: #FFF;
@@ -1184,351 +1190,387 @@ footer {
         margin-bottom: 20px;
         margin-top: 15px;
     }
-.achievement-right {
-    background: url(../img/Group\ 15.png);
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    border-radius: 55px;
-    position: relative;
-    background-size: cover;
-    padding: 50px 100px;
-}
-.achievement-right h1 {
-    color: #FFF;
-    font-family: Satoshi;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 1.6;
-    margin-bottom: 19px;
-}
-.achievement-right p {
-    color: #FFF;
-    text-align: center;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.6;
-    margin-bottom: 25px;
-    max-width: 550px;
-}
-h2.comn-blk-hd {
-    color: #0F1F2D;
-    font-family: Plus Jakarta Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 1.4;
-    margin-bottom: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}   
-.service-card {
-    border-radius: 56px;
-    background: #001222;
-    min-height: 261px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 35px 65px;
-    position: relative;
-}
-.about-left img {
-    width: 70%;
-    display:inherit
-}
 
-.our-service-card {
-    border-radius: 56px;
-    background: #0F1F2D;
-    padding: 40px 80px;
-    min-height: 260px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    position: relative;
-}
+    .achievement-right {
+        background: url(../img/Group\ 15.png);
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        border-radius: 55px;
+        position: relative;
+        background-size: cover;
+        padding: 50px 100px;
+    }
 
-.our-service-card img {
-    margin-bottom: 20px;
-    width: 50px;
-}
-.our-service-card h4 {
-    color: #FFF;
-    text-align: center;
-    font-family: Satoshi;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.4;
-    margin-bottom: 10px;
-}
-.our-service-card p {
-    color: #cdcdcd;
-    text-align: center;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.6;
-}
-.our-service-card p {
-    color: #cdcdcd;
-    text-align: center;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.6;
-}
-/* .our-service-card:last-child{
+    .achievement-right h1 {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.6;
+        margin-bottom: 19px;
+    }
+
+    .achievement-right p {
+        color: #FFF;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        max-width: 550px;
+    }
+
+    h2.comn-blk-hd {
+        color: #0F1F2D;
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.4;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        border-radius: 56px;
+        background: #001222;
+        min-height: 261px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 35px 65px;
+        position: relative;
+    }
+
+    .about-left img {
+        width: 70%;
+        display: inherit
+    }
+
+    .our-service-card {
+        border-radius: 56px;
+        background: #0F1F2D;
+        padding: 40px 80px;
+        min-height: 260px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .our-service-card img {
+        margin-bottom: 20px;
+        width: 50px;
+    }
+
+    .our-service-card h4 {
+        color: #FFF;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .our-service-card p {
+        color: #cdcdcd;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+    .our-service-card p {
+        color: #cdcdcd;
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+    /* .our-service-card:last-child{
     margin: 0;
 } */
-.job-achv {
-    padding: 40px 0;
-    background: #0F1F2D;
-    color: #fff;
-}
-.job-achv-right {
-    background: url(../img/Group\ 15.png);
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    border-radius: 55px;
-    position: relative;
-    background-size: cover;
-    padding: 50px;
-}
-.job-achv h3 {
-    color: #FFF;
-    font-family: Satoshi;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 1.4;
-    margin-bottom: 15px;
-}
-.job-achv ul {
-    padding-left: 15px;
-    padding-bottom: 10px;
-}
-.job-achv li {
-    color: #FFF;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 5px;
-}
-.job-achv-left {
-    background: url(../img/Group\ 14.png);
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 55px;
-    padding: 51px;
-    background-size: cover;
-    min-height: auto;
-}
-.test-item {
-    display: flex;
-    flex-direction: column;
-}
-.test-left {
-    width: 100%;
-}
-.testimonial-content.owl-carousel .owl-item img.test-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    height: 240px;
-    border-radius: 55px 55px 0 0;
-}
-.test-right {
-    background: #0F1F2D;
-    color: #fff;
-    position: relative;
-    margin-left: 0;
-    z-index: -1;
-    padding: 40px;
-    padding-left: 40px;
-    border-radius: 0 0 55px 55px;
-    width: 100%;
-}
-}
-.testimonial-content.owl-carousel .owl-item .test-right img {
-    display: block;
-    width: 50px;
-    margin-bottom: 20px;
-    margin-top: 0;
-    object-fit: cover;
-}
-.text-content {
-    width: 100%;
-    margin-left: 0;
-}
-.test-right h4 {
-    color: #FFF;
-    font-family: Satoshi;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    margin-bottom: 1.4;
-}
-.test-right p {
-    color: #FAF9F9;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-.test-right .name {
-    color: #FFF;
-    font-family: Satoshi;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    margin-bottom: -1px;
-}
-.test-right .desig {
-    color: #FAF9F9;
-    font-family: Satoshi;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 1.6;
-    margin: 0;
-}
+    .job-achv {
+        padding: 40px 0;
+        background: #0F1F2D;
+        color: #fff;
+    }
 
-/* contact sec  */
+    .job-achv-right {
+        background: url(../img/Group\ 15.png);
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        border-radius: 55px;
+        position: relative;
+        background-size: cover;
+        padding: 50px;
+    }
 
-.contact {
-    margin-bottom: 160px;
-    position: relative;
-    min-height: 660px;
-}
-.custom-container {
-    margin: 0 50px;
-}
-.contact-inner {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: space-between;
-    position: absolute;
-    background: #fff;
-    padding: 40px;
-    bottom: -244px;
-    left: 0;
-    border-radius: 10px;
-    right: 0;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px -3px 24px;
-}
-.contact-left {
-    width: 100%;
-}
+    .job-achv h3 {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
 
-.form-inner input {
-    height: 50px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    width: 95%;
-}
-.contact-right {
-    width: 100%;
-    background: #0f1f2d;
-    border-radius: 10px;
-    padding: 34px;
-    min-height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 15px;
-}
-.send-msg {
-    font-size: 22px;
-    margin-bottom: 30px;
-    font-weight: 600;
-}
-.contact-right h5 {
-    font-size: 22px;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-.contact-right li {
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 14px;
-    display: inline-flex;
-    line-height: 1.8;
-    width: 100%;
-}
-.contact-right img {
-    width: 20px;
-    margin-right: 15px;
-}
-section:last-of-type {
-    margin-bottom: 0;
-    /* Remove margin for the last section */
-}
-.logo-sec h2 {
-    font-size: 20px;
-    color: #fff;
-    letter-spacing: 7px;
-}
-.company h3 {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 19px;
-    color: #fff;
-}
-.company li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-.social img {
-    width: 20px;
-}
-.social h3 {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 25px;
-    color: #fff;
-}
-.address h3 {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 25px;
-    color: #fff;
-}
-.address address {
-    line-height: 2.3;
-    font-size: 14px;
-    line-height: 2;
-}
+    .job-achv ul {
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
+    .job-achv li {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .job-achv-left {
+        background: url(../img/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 55px;
+        padding: 51px;
+        background-size: cover;
+        min-height: auto;
+    }
+
+    .test-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .test-left {
+        width: 100%;
+    }
+
+    .testimonial-content.owl-carousel .owl-item img.test-img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        height: 240px;
+        border-radius: 55px 55px 0 0;
+    }
+
+    .test-right {
+        background: #0F1F2D;
+        color: #fff;
+        position: relative;
+        margin-left: 0;
+        z-index: -1;
+        padding: 40px;
+        padding-left: 40px;
+        border-radius: 0 0 55px 55px;
+        width: 100%;
+
+    }
+
+    .testimonial-content.owl-carousel .owl-item .test-right img {
+        display: block;
+        width: 50px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        object-fit: cover;
+    }
+
+    .text-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .test-right h4 {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 1.4;
+    }
+
+    .test-right p {
+        color: #FAF9F9;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .test-right .name {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: -1px;
+    }
+
+    .test-right .desig {
+        color: #FAF9F9;
+        font-family: Satoshi;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* contact sec  */
+
+    .contact {
+        margin-bottom: 160px;
+        position: relative;
+        min-height: 660px;
+    }
+
+    .custom-container {
+        margin: 0 50px;
+    }
+
+    .contact-inner {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-between;
+        position: absolute;
+        background: #fff;
+        padding: 40px;
+        bottom: -244px;
+        left: 0;
+        border-radius: 10px;
+        right: 0;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px -3px 24px;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    .form-inner input {
+        height: 50px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        width: 95%;
+    }
+
+    .contact-right {
+        width: 100%;
+        background: #0f1f2d;
+        border-radius: 10px;
+        padding: 34px;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .send-msg {
+        font-size: 22px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .contact-right h5 {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .contact-right li {
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 14px;
+        display: inline-flex;
+        line-height: 1.8;
+        width: 100%;
+    }
+
+    .contact-right img {
+        width: 20px;
+        margin-right: 15px;
+    }
+
+    .logo-sec h2 {
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 7px;
+    }
+
+    .company h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 19px;
+        color: #fff;
+    }
+
+    .company li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .social img {
+        width: 20px;
+    }
+
+    .social h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    .address h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        color: #fff;
+    }
+
+    .address address {
+        line-height: 2.3;
+        font-size: 14px;
+        line-height: 2;
+    }
 }
